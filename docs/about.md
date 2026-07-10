@@ -1,6 +1,6 @@
-# 👤 关于我
+# 关于我
 
-## 📋 基本信息
+## 基本信息
 
 | 项目 | 内容 |
 |---|---|
@@ -12,154 +12,91 @@
 
 ---
 
-## 🎓 教育 & 经历
+## 我的经历
 
 <div class="timeline" markdown>
 
-<div class="timeline-item" markdown>
-<div class="timeline-date">2021 — 2025</div>
+<div markdown>
+<div class="date">2021 — 2025</div>
 
-### 长春科技学院 · 计算机科学与技术
+### 大学四年
 
-系统学习数据结构、操作系统、计算机网络、数据库原理等核心课程。毕设《基于 Figma 的校园二手交易平台 UI 设计与实现》完成从用户研究到前端实现的全流程。
-
-</div>
-
-<div class="timeline-item" markdown>
-<div class="timeline-date">2023 — 2024</div>
-
-### 校权益部副部长
-
-组织协调校园活动，负责学生权益反馈渠道的维护，锻炼了沟通表达与团队协作能力。
+在长春科技学院读计算机科学与技术。学了数据结构、操作系统、网络、数据库这些基础课。说实话，不是每门课都喜欢，但写代码和做设计这两件事让我一直有热情。毕设选了二手交易平台这个题目，花了很多时间在 Figma 上打磨细节。
 
 </div>
 
-<div class="timeline-item" markdown>
-<div class="timeline-date">2022 — 2023</div>
+<div markdown>
+<div class="date">2022 — 2023</div>
 
-### 兼职家教 · 100+ 课时
+### 兼职家教
 
-辅导初中生数学与物理，善于将抽象问题拆解为可理解的步骤。这段经历让我确信：**教学是我真正热爱的事**。
-
-</div>
-
-<div class="timeline-item" markdown>
-<div class="timeline-date">2024 — 至今</div>
-
-### 毕业设计 & 作品集搭建
-
-完成 40+ 页面 Figma 高保真设计，搭建个人作品集网站，深入使用 Claude Code 进行 AI 驱动开发。持续输出技术文章，为编程教学做准备。
+接了两个初中生，辅导数学和物理，断断续续做了 100 多个课时。刚开始讲得很烂——我以为把概念说清楚就行了，结果学生听不进去。后来慢慢摸索出一个道理：**教学不是把你知道的倒出来，而是找到对方能接住的表达方式**。
 
 </div>
 
+<div markdown>
+<div class="date">2023 — 2024</div>
+
+### 校权益部 & 毕设启动
+
+当了权益部副部长，锻炼了沟通能力。同时开始毕设《基于 Figma 的校园二手交易平台 UI 设计与实现》，从需求调研开始一步步推进。在 Figma 里反复改稿的经历让我对设计有了真正的手感。
+
 </div>
 
----
+<div markdown>
+<div class="date">2024 — 至今</div>
 
-## 🛠️ 技能熟练度
+### 毕设完成 & 探索 AI 工具
 
-<div class="skill-bars" markdown>
+完成了 40+ 页高保真设计稿加核心页面的前端实现。开始大量使用 Claude 和 Claude Code 辅助开发，发现 AI 时代程序员的工作方式变了。搭建了这个作品集网站，写了技术文章，在准备编程教师的面试。
 
-<div class="skill-bar-item" markdown>
-<span class="skill-bar-label">Figma</span>
-<div class="skill-bar-track"><div class="skill-bar-fill" style="width: 90%;"></div></div>
-</div>
-
-<div class="skill-bar-item" markdown>
-<span class="skill-bar-label">HTML/CSS</span>
-<div class="skill-bar-track"><div class="skill-bar-fill" style="width: 85%;"></div></div>
-</div>
-
-<div class="skill-bar-item" markdown>
-<span class="skill-bar-label">JavaScript</span>
-<div class="skill-bar-track"><div class="skill-bar-fill" style="width: 70%;"></div></div>
-</div>
-
-<div class="skill-bar-item" markdown>
-<span class="skill-bar-label">Vue.js</span>
-<div class="skill-bar-track"><div class="skill-bar-fill" style="width: 65%;"></div></div>
-</div>
-
-<div class="skill-bar-item" markdown>
-<span class="skill-bar-label">Java</span>
-<div class="skill-bar-track"><div class="skill-bar-fill" style="width: 70%;"></div></div>
-</div>
-
-<div class="skill-bar-item" markdown>
-<span class="skill-bar-label">Python</span>
-<div class="skill-bar-track"><div class="skill-bar-fill" style="width: 60%;"></div></div>
 </div>
 
 </div>
 
 ---
 
-## 🏷️ 技术标签
+## 技能情况
 
-### 设计工具
+> 下面这些是客观描述，不是"精通"——我知道自己哪里会、哪里还需要学。
 
-<div class="tag-list" markdown>
-<span class="tag tag-star">⭐ Figma — 最熟练</span>
-<span class="tag">Photoshop</span>
-<span class="tag">Illustrator</span>
-<span class="tag">Adobe XD</span>
-<span class="tag">Sketch</span>
+<div class="tag-row" markdown>
+<span class="star">Figma</span><span>Photoshop</span><span>Illustrator</span><span>Adobe XD</span>
 </div>
 
-### 前端技术
-
-<div class="tag-list" markdown>
-<span class="tag tag-star">HTML5</span>
-<span class="tag tag-star">CSS3</span>
-<span class="tag">JavaScript ES6+</span>
-<span class="tag">⭐ Vue.js</span>
-<span class="tag">响应式布局</span>
+<div class="tag-row" markdown>
+<span class="star">HTML/CSS</span><span>JavaScript</span><span>Vue.js</span><span>响应式布局</span>
 </div>
 
-### 后端 & 数据库
-
-<div class="tag-list" markdown>
-<span class="tag tag-star">Java</span>
-<span class="tag">Spring Boot</span>
-<span class="tag">MyBatis</span>
-<span class="tag">MySQL</span>
-<span class="tag">Linux</span>
+<div class="tag-row" markdown>
+<span class="star">Java</span><span>Spring Boot</span><span>MyBatis</span><span>MySQL</span><span>Linux</span>
 </div>
 
-### AI 工具链
-
-<div class="tag-list" markdown>
-<span class="tag tag-star">Claude / Claude Code</span>
-<span class="tag">AI 设计工具</span>
-<span class="tag">Python</span>
+<div class="tag-row" markdown>
+<span class="star">Claude / Claude Code</span><span>AI 设计工具</span><span>Python</span>
 </div>
 
 ---
 
-## 🎯 编程教学理念
+## 我对编程教学的想法
 
-> "好的代码老师，不只是教语法，而是教**思维方式**。"
+> 好老师不是把简单的说复杂了显得自己厉害，而是把复杂的说简单了让学生觉得"原来如此"。
 
-我理解的编程教学分为三个层次：
+我理解的编程教学有三个层次：
 
-<ol class="teaching-levels" markdown>
+<ol class="levels" markdown>
 <li markdown>**会用** — 能写出能跑的代码，解决基本问题</li>
-<li markdown>**会想** — 理解底层原理，能自主分析问题、设计方案</li>
-<li markdown>**会教** — 能把自己懂的东西，用别人能理解的方式讲清楚</li>
+<li markdown>**会想** — 理解底层原理，能自己分析问题、设计方案</li>
+<li markdown>**会教** — 能把你懂的东西，用别人能理解的方式讲清楚</li>
 </ol>
 
-我的目标是培养学生站稳**第二层**，同时用自己的设计能力让抽象概念可视化，降低理解门槛。
+我觉得大部分课程只教到第一层，好一点的教到第二层。而我想做的，是把这三层都打通——**用设计的可视化能力降低门槛，用家教的耐心引导思考，用 AI 工具提升效率**。
 
-在 AI 时代，编程老师的角色不再是"代码词典"，而是：
-
-- 🔍 帮助学生建立**计算思维**
-- 🧭 引导学生学会**与 AI 协作**而非依赖
-- 🎯 教会学生**提问、验证、优化**的能力
+在 AI 时代，编程老师不应该和学生抢饭碗（"你看我也会写代码"），而应该教那些 **AI 替代不了的东西**：计算思维、问题拆解、判断好坏代码的能力、和 AI 高效协作的方法。
 
 ---
 
-## 📫 联系我
+## 联系我
 
-- 📧 Email: gxw072423@163.com
-- 🐙 GitHub: [@gxw072423](https://github.com/gxw072423)
-- 📍 所在地: 中国
+- 📧 gxw072423@163.com
+- 🐙 [github.com/gxw072423](https://github.com/gxw072423)

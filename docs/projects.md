@@ -1,109 +1,88 @@
-# 🚀 项目作品
+# 项目作品
 
-每一个项目都代表着我的一步成长。
+以下是我在大学期间完成的几个代表性项目。有的完整，有的粗糙，但每个都让我学到了东西。
 
 ---
 
-## 🎓 毕业设计：校园二手交易平台
+## 毕业设计：校园二手交易平台
 
-<div class="project-card" markdown>
+<div class="project-block" markdown>
 
-<div class="project-role">🎯 UI/UX 设计师 + 前端开发者</div>
+**做了什么事**：为大学校园设计并实现了一个二手交易平台。
 
-<div class="project-tags" markdown>
-<span class="project-tag">Figma</span>
-<span class="project-tag">HTML5</span>
-<span class="project-tag">CSS3</span>
-<span class="project-tag">JavaScript</span>
+<div class="tech-tags" markdown>
+<span>Figma</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
 </div>
 
-### 📋 项目概述
+这是我最花心思的一个项目。从最初的用户调研开始，画信息架构、做线框图、反复调整交互细节，再到视觉设计和高保真原型——在 Figma 里磨了很久。做完设计稿之后，用原生 HTML/CSS/JS 实现了几个核心页面（商品列表、详情页、发布页、聊天界面），也做了手机端的适配。
 
-为大学校园设计并实现了一款二手交易平台的完整 UI。从需求调研到高保真原型，再到前端实现，走完了全流程。
+**具体产出**：
 
-### ✅ 完成了什么
+- 40+ 页高保真 Figma 设计稿
+- 组件库和设计规范文档
+- 核心页面的前端实现
+- 完整的响应式适配
 
-- 🎨 **40+ 页面**高保真 Figma 设计稿
-- 🔍 用户调研与竞品分析，产出用户画像
-- 📐 搭建组件库和设计规范（Design System）
-- 💻 HTML/CSS/JS 实现核心页面（商品列表、详情、发布、聊天）
-- 📱 完整的响应式适配（手机端 + 桌面端）
-
-### 💡 教学视角
-
-> 这个项目展示了如何将**设计思维**与**工程实现**结合——这正是我希望教给学生的：学会从用户视角思考，再用代码落地。
+**从中学到的**：设计不是画图，是解决问题。好的 UI 让用户不用思考就知道下一步该做什么。
 
 </div>
 
 ---
 
-## 💼 个人作品集网站
+## 个人作品集网站
 
-<div class="project-card" markdown>
+<div class="project-block" markdown>
 
-<div class="project-role">⚡ 全栈开发者</div>
+**做了什么事**：你现在正在看的这个网站。
 
-<div class="project-tags" markdown>
-<span class="project-tag">Python</span>
-<span class="project-tag">MkDocs</span>
-<span class="project-tag">Material Design</span>
-<span class="project-tag">GitHub Pages</span>
+<div class="tech-tags" markdown>
+<span>Python</span><span>MkDocs</span><span>CSS</span><span>GitHub Pages</span>
 </div>
 
-### 📋 项目概述
+这个网站的搭建过程其实挺有意思的——它是我和 Claude Code 协作完成的。我告诉 AI 我想要什么效果，AI 帮我写代码，我负责决策和调整。整个过程像一个"结对编程"的练习。
 
-你现在正在看的这个网站！使用 Python 生态的 MkDocs 搭建，Material Design 风格，部署在 GitHub Pages 上。从设计到部署全流程独立完成。
+**技术细节**：
 
-### ✅ 技术亮点
-
-- 🐍 **Python 工具链**：MkDocs + Material for MkDocs
-- 🎨 **自定义 CSS**：300+ 行手写样式，暗色模式适配
-- 📝 **Markdown 驱动**：全部内容用 Markdown 编写，简洁高效
-- 🌗 **暗色模式**：亮色/暗色一键切换，无缝体验
-- 🚀 **一行部署**：`mkdocs gh-deploy` 自动部署到 GitHub Pages
-- 🔍 **全文搜索**：内置搜索，支持中文
+- 基于 Python 的 MkDocs 搭建，用 Material Design 主题
+- 手写了自定义 CSS 做样式调整
+- 所有内容用 Markdown 编写
+- 通过 GitHub Pages 免费托管，一条命令部署
 
 </div>
 
 ---
 
-## 📚 其他技术实践
+## 其他实践
 
-<div class="practice-cards" markdown>
+<div class="practice-grid" markdown>
 
-<div class="practice-card" markdown>
-
-<span class="card-icon">🗄️</span>
+<div markdown>
 
 ### 学生管理系统
 
-<p class="practice-tech">Spring Boot + MyBatis + MySQL</p>
+<div class="stack">Spring Boot + MyBatis + MySQL</div>
 
-基础的 CRUD 管理系统，包含学生信息管理、课程管理、成绩录入与查询功能。实践了 RESTful API 设计、MyBatis 数据库映射与前后端分离架构。
+一个简单的 CRUD 系统，能管理学生信息、课程和成绩。用来练习 Spring Boot 的后端开发流程和 RESTful API 设计。
 
 </div>
 
-<div class="practice-card" markdown>
-
-<span class="card-icon">☀️</span>
+<div markdown>
 
 ### 天气预报应用
 
-<p class="practice-tech">Vue 3 + Vite + API 调用</p>
+<div class="stack">Vue 3 + Vite + 天气 API</div>
 
-调用第三方天气 API，展示实时天气、未来 7 天预报、城市搜索等功能。实践了 Vue 3 Composition API、Axios 异步请求与响应式布局。
+调用公开的天气接口，做一个能实时展示天气、支持城市搜索和未来预报的页面。练习了 Vue 3 的 Composition API 和组件通信。
 
 </div>
 
-<div class="practice-card" markdown>
+<div markdown>
 
-<span class="card-icon">🎮</span>
+### 3D 小球闯关
 
-### Unity 3D 小球闯关
+<div class="stack">Unity + C#</div>
 
-<p class="practice-tech">Unity + C#</p>
-
-一个 3D 平台跳跃游戏，玩家控制小球通过障碍到达终点。实践了物理引擎应用、C# 脚本编写与游戏 UI 设计。
+用 Unity 做的 3D 平台跳跃小游戏。控制一个球滚过障碍到达终点。虽然很简陋，但体验了游戏开发从建模到脚本的完整流程。
 
 </div>
 
@@ -111,16 +90,16 @@
 
 ---
 
-## 🔮 未来计划
+## 接下来想做
 
-- 📖 开发一个**在线编程练习平台**（交互式代码编辑器 + 自动评测）
-- 📹 制作**编程教学视频系列**（从零到一学 Web 开发）
-- 🛠️ 构建一个轻量级 **Vue UI 组件库**（从 Figma 设计到代码实现）
+- 做一个带在线代码编辑器的编程练习平台
+- 录制一系列"从零学前端"的教学视频
+- 把 Figma 里积累的组件整理成一个开源的 Vue 组件库
 
 ---
 
-<div class="center-cta" markdown>
+<div style="text-align: center; margin: 2.5rem 0;" markdown>
 
-[🐙 查看 GitHub 仓库](https://github.com/gxw072423){ .md-button .md-button--primary }
+[去 GitHub 看看](https://github.com/gxw072423){ .md-button .md-button--primary }
 
 </div>
