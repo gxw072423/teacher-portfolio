@@ -1,0 +1,451 @@
+/* ============================================================
+   郭笑玮 · 编程教师作品集 — 自定义样式
+   基于 Material for MkDocs 蓝色主题
+   ============================================================ */
+
+/* ---------- CSS 变量 ---------- */
+:root {
+  --blue-900: #0D47A1;
+  --blue-800: #1565C0;
+  --blue-700: #1976D2;
+  --blue-600: #1E88E5;
+  --blue-400: #42A5F5;
+  --blue-300: #64B5F6;
+  --blue-100: #BBDEFB;
+  --blue-50:  #E3F2FD;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --shadow-card: 0 2px 12px rgba(0,0,0,0.08);
+  --shadow-hover: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+/* ---------- 首页：Hero 区域 ---------- */
+.hero-grid {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  margin: 2rem 0 3rem;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-text h1 {
+  color: var(--blue-800);
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 0.2rem;
+}
+
+.hero-subtitle {
+  color: #666;
+  font-size: 1.15rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+}
+
+.hero-avatar {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.avatar-circle {
+  width: 140px;
+  height: 140px;
+  background: linear-gradient(135deg, var(--blue-800), var(--blue-400));
+  border-radius: 50%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+  box-shadow: 0 6px 24px rgba(21,101,192,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  user-select: none;
+}
+
+.avatar-circle:hover {
+  transform: scale(1.06) rotate(5deg);
+  box-shadow: 0 10px 36px rgba(21,101,192,0.4);
+}
+
+/* ---------- 技能卡片网格 ---------- */
+.skill-cards,
+.advantage-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.skill-card {
+  background: linear-gradient(135deg, var(--blue-50), var(--blue-100));
+  padding: 1.5rem;
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--blue-800);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.skill-card:nth-child(2) { border-left-color: var(--blue-700); }
+.skill-card:nth-child(3) { border-left-color: var(--blue-600); }
+.skill-card:nth-child(4) { border-left-color: var(--blue-400); }
+
+.skill-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+}
+
+.skill-card h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+/* ---------- 优势卡片 ---------- */
+.advantage-card {
+  background: var(--md-default-bg-color, #fff);
+  border-radius: var(--radius-md);
+  padding: 1.6rem;
+  box-shadow: var(--shadow-card);
+  border: 1px solid transparent;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.advantage-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--blue-100);
+}
+
+.advantage-card h3 {
+  margin-top: 0;
+}
+
+/* ---------- CTA 按钮区 ---------- */
+.center-cta {
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.center-cta .md-button {
+  margin: 0.25rem;
+}
+
+/* ---------- 标签样式（关于页） ---------- */
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.8rem 0;
+}
+
+.tag {
+  background: var(--blue-800);
+  color: #fff;
+  padding: 0.45rem 1rem;
+  border-radius: var(--radius-lg);
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.tag:hover {
+  transform: scale(1.06);
+  box-shadow: 0 4px 12px rgba(21,101,192,0.35);
+}
+
+.tag-star { background: var(--blue-800); font-weight: 600; }
+
+.tag:nth-child(2)  { background: var(--blue-700); }
+.tag:nth-child(3)  { background: var(--blue-600); }
+.tag:nth-child(4)  { background: var(--blue-400); }
+.tag:nth-child(5)  { background: var(--blue-400); }
+
+/* ---------- 教学理念 ---------- */
+.teaching-levels {
+  counter-reset: level;
+  list-style: none;
+  padding-left: 0;
+}
+
+.teaching-levels li {
+  counter-increment: level;
+  padding: 0.7rem 1rem;
+  margin: 0.5rem 0;
+  background: var(--blue-50);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--blue-400);
+  font-weight: 500;
+}
+
+.teaching-levels li::before {
+  content: "0" counter(level);
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  background: var(--blue-800);
+  color: #fff;
+  border-radius: 50%;
+  margin-right: 0.8rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+/* ---------- 项目卡片（projects.md） ---------- */
+.project-card {
+  background: linear-gradient(135deg, var(--blue-50), var(--md-default-bg-color, #fff));
+  border-radius: var(--radius-md);
+  padding: 1.8rem;
+  margin: 1.2rem 0;
+  border-left: 5px solid var(--blue-800);
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.project-card:nth-child(1) { border-left-color: var(--blue-800); }
+.project-card:nth-child(2) { border-left-color: var(--blue-700); }
+
+.project-card:hover {
+  box-shadow: var(--shadow-hover);
+}
+
+.project-tags {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.project-tag {
+  background: var(--blue-800);
+  color: #fff;
+  padding: 0.15rem 0.55rem;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.project-tag:nth-child(2) { background: var(--blue-700); }
+.project-tag:nth-child(3) { background: var(--blue-600); }
+.project-tag:nth-child(4) { background: var(--blue-400); }
+
+/* ---------- 实践项目卡片（projects.md 底部） ---------- */
+.practice-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.2rem;
+  margin: 1.2rem 0;
+}
+
+.practice-card {
+  border: 1px solid var(--blue-100);
+  border-radius: var(--radius-md);
+  padding: 1.4rem;
+  transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+  background: var(--md-default-bg-color, #fff);
+}
+
+.practice-card:hover {
+  border-color: var(--blue-400);
+  box-shadow: var(--shadow-hover);
+  transform: translateY(-3px);
+}
+
+.practice-card h3 {
+  font-size: 1.05rem;
+  margin-top: 0;
+}
+
+/* ---------- 文章卡片（blog.md） ---------- */
+.article-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  margin: 1.5rem 0;
+}
+
+.article-card {
+  border: 1px solid var(--blue-100);
+  border-radius: var(--radius-md);
+  padding: 1.4rem 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  transition: border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+  background: var(--md-default-bg-color, #fff);
+}
+
+.article-card:hover {
+  border-color: var(--blue-400);
+  box-shadow: var(--shadow-hover);
+  transform: translateX(4px);
+}
+
+.article-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.1rem;
+}
+
+.article-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.article-date {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+.article-category {
+  background: var(--blue-50);
+  color: var(--blue-800);
+  padding: 0.15rem 0.55rem;
+  border-radius: 12px;
+  font-size: 0.78rem;
+  font-weight: 500;
+}
+
+.article-read {
+  flex: 0 0 auto;
+  color: var(--blue-800);
+  font-weight: 600;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.article-read:hover {
+  color: var(--blue-600);
+  transform: translateX(3px);
+}
+
+/* ---------- 高亮引用块 ---------- */
+blockquote.teaching-quote {
+  border-left-color: var(--blue-400);
+  background: var(--blue-50);
+  padding: 1rem 1.5rem;
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 1.05rem;
+}
+
+/* ---------- 代码流程图块 ---------- */
+.concept-flow {
+  background: var(--md-code-bg-color, #f5f5f5);
+  border-radius: var(--radius-md);
+  padding: 1.2rem 1.5rem;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  overflow-x: auto;
+  border: 1px solid var(--blue-100);
+}
+
+/* ---------- CTA 区域 ---------- */
+.cta-box {
+  text-align: center;
+  margin: 2.5rem 0;
+  padding: 2rem;
+  background: var(--blue-50);
+  border-radius: var(--radius-md);
+}
+
+.cta-box h3 {
+  margin-top: 0;
+}
+
+/* ---------- 分割线美化 ---------- */
+.section-divider {
+  margin: 2.5rem 0;
+  border: none;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--blue-100), transparent);
+}
+
+/* ---------- 响应式 ---------- */
+@media (max-width: 768px) {
+  .hero-grid {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+    text-align: center;
+  }
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  .avatar-circle {
+    width: 110px;
+    height: 110px;
+    font-size: 3rem;
+  }
+  .article-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .practice-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .skill-cards,
+  .advantage-cards {
+    grid-template-columns: 1fr;
+  }
+  .hero-text h1 {
+    font-size: 1.7rem;
+  }
+}
+
+/* ---------- 打印优化 ---------- */
+@media print {
+  .article-card,
+  .practice-card,
+  .project-card {
+    box-shadow: none;
+    border: 1px solid #ccc;
+    break-inside: avoid;
+  }
+}
+
+/* ---------- 暗色模式适配 ---------- */
+[data-md-color-scheme="slate"] .skill-card {
+  background: linear-gradient(135deg, rgba(21,101,192,0.15), rgba(66,165,245,0.1));
+  border-left-color: var(--blue-400);
+}
+
+[data-md-color-scheme="slate"] .project-card {
+  background: linear-gradient(135deg, rgba(21,101,192,0.12), transparent);
+}
+
+[data-md-color-scheme="slate"] .advantage-card {
+  background: var(--md-default-bg-color);
+  border-color: rgba(255,255,255,0.06);
+}
+
+[data-md-color-scheme="slate"] .article-card,
+[data-md-color-scheme="slate"] .practice-card {
+  border-color: rgba(255,255,255,0.08);
+}
+
+[data-md-color-scheme="slate"] .article-card:hover,
+[data-md-color-scheme="slate"] .practice-card:hover {
+  border-color: var(--blue-400);
+}
+
+[data-md-color-scheme="slate"] .cta-box {
+  background: rgba(21,101,192,0.12);
+}
+
+[data-md-color-scheme="slate"] .teaching-levels li {
+  background: rgba(21,101,192,0.1);
+}
+
+[data-md-color-scheme="slate"] .concept-flow {
+  border-color: rgba(255,255,255,0.1);
+}
