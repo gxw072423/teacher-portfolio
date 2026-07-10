@@ -28,6 +28,18 @@
 
 </div>
 
+## 🎨 像素画生成器
+
+<div class="proj" markdown>
+
+<div class="stack">Vue 3 + Canvas API + GitHub Pages</div>
+
+独立开发的一个纯前端图像处理工具。上传照片，拖动滑块就能实时看到像素化效果——支持原始色彩、复古6色和黑白三种模式，做好的图可以一键下载 PNG。
+
+[:octicons-link-external-16: 在线体验](https://gxw072423.github.io/pixel-art/){ .md-button } [:octicons-mark-github-16: 源码](https://github.com/gxw072423/pixel-art){ .md-button }
+
+</div>
+
 ## 其他实践
 
 <div class="proj" markdown>

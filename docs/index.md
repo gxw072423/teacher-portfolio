@@ -66,6 +66,10 @@ Java + Spring Boot + MyBatis，能搭基础后端服务。MySQL 和 Linux 也都
 
 <hr class="section-hr">
 
+<div class="home-buttons" markdown>
+
 [看我的项目 →](projects.md){ .md-button .md-button--primary }
 [更多关于我 →](about.md){ .md-button }
+
+</div>
 
