@@ -1,6 +1,6 @@
 # 👤 关于我
 
-## 基本信息
+## 📋 基本信息
 
 | 项目 | 内容 |
 |---|---|
@@ -12,41 +12,96 @@
 
 ---
 
-## 🎓 教育背景
+## 🎓 教育 & 经历
+
+<div class="timeline" markdown>
+
+<div class="timeline-item" markdown>
+<div class="timeline-date">2021 — 2025</div>
 
 ### 长春科技学院 · 计算机科学与技术
 
-在校期间系统学习了计算机科学核心课程，包括数据结构、操作系统、计算机网络、数据库原理、编程语言等。
+系统学习数据结构、操作系统、计算机网络、数据库原理等核心课程。毕设《基于 Figma 的校园二手交易平台 UI 设计与实现》完成从用户研究到前端实现的全流程。
 
-**毕业设计**：《基于 Figma 的校园二手交易平台 UI 设计与实现》
+</div>
 
-毕设项目从用户研究、信息架构、交互设计、视觉设计到前端实现完成了一条完整的链路，在 Figma 中完成了 40+ 个页面的高保真设计稿，并使用 HTML/CSS/JavaScript 实现了核心交互页面。
-
----
-
-## 💼 校园经历
+<div class="timeline-item" markdown>
+<div class="timeline-date">2023 — 2024</div>
 
 ### 校权益部副部长
 
-- 组织协调校园活动，锻炼了沟通与团队协作能力
-- 负责学生权益反馈渠道的维护，培养了耐心与服务意识
+组织协调校园活动，负责学生权益反馈渠道的维护，锻炼了沟通表达与团队协作能力。
 
-### 兼职家教
+</div>
 
-- 辅导初中生数学与物理，累计 100+ 课时
-- 善于将抽象问题拆解为可理解的步骤，引导学生自主思考
-- 这段经历让我确信：**教学是我真正热爱的事**
+<div class="timeline-item" markdown>
+<div class="timeline-date">2022 — 2023</div>
+
+### 兼职家教 · 100+ 课时
+
+辅导初中生数学与物理，善于将抽象问题拆解为可理解的步骤。这段经历让我确信：**教学是我真正热爱的事**。
+
+</div>
+
+<div class="timeline-item" markdown>
+<div class="timeline-date">2024 — 至今</div>
+
+### 毕业设计 & 作品集搭建
+
+完成 40+ 页面 Figma 高保真设计，搭建个人作品集网站，深入使用 Claude Code 进行 AI 驱动开发。持续输出技术文章，为编程教学做准备。
+
+</div>
+
+</div>
 
 ---
 
-## 🛠️ 技能详情
+## 🛠️ 技能熟练度
+
+<div class="skill-bars" markdown>
+
+<div class="skill-bar-item" markdown>
+<span class="skill-bar-label">Figma</span>
+<div class="skill-bar-track"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+</div>
+
+<div class="skill-bar-item" markdown>
+<span class="skill-bar-label">HTML/CSS</span>
+<div class="skill-bar-track"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+</div>
+
+<div class="skill-bar-item" markdown>
+<span class="skill-bar-label">JavaScript</span>
+<div class="skill-bar-track"><div class="skill-bar-fill" style="width: 70%;"></div></div>
+</div>
+
+<div class="skill-bar-item" markdown>
+<span class="skill-bar-label">Vue.js</span>
+<div class="skill-bar-track"><div class="skill-bar-fill" style="width: 65%;"></div></div>
+</div>
+
+<div class="skill-bar-item" markdown>
+<span class="skill-bar-label">Java</span>
+<div class="skill-bar-track"><div class="skill-bar-fill" style="width: 70%;"></div></div>
+</div>
+
+<div class="skill-bar-item" markdown>
+<span class="skill-bar-label">Python</span>
+<div class="skill-bar-track"><div class="skill-bar-fill" style="width: 60%;"></div></div>
+</div>
+
+</div>
+
+---
+
+## 🏷️ 技术标签
 
 ### 设计工具
 
 <div class="tag-list" markdown>
 <span class="tag tag-star">⭐ Figma — 最熟练</span>
-<span class="tag">Adobe Photoshop</span>
-<span class="tag">Adobe Illustrator</span>
+<span class="tag">Photoshop</span>
+<span class="tag">Illustrator</span>
 <span class="tag">Adobe XD</span>
 <span class="tag">Sketch</span>
 </div>
@@ -55,7 +110,7 @@
 
 <div class="tag-list" markdown>
 <span class="tag tag-star">HTML5</span>
-<span class="tag">CSS3</span>
+<span class="tag tag-star">CSS3</span>
 <span class="tag">JavaScript ES6+</span>
 <span class="tag">⭐ Vue.js</span>
 <span class="tag">响应式布局</span>
@@ -88,12 +143,12 @@
 我理解的编程教学分为三个层次：
 
 <ol class="teaching-levels" markdown>
-<li markdown>**会用** — 能写出能跑的代码</li>
-<li markdown>**会想** — 理解背后的原理，能自主解决问题</li>
-<li markdown>**会教** — 能把自己懂的东西，用别人能理解的方式讲出来</li>
+<li markdown>**会用** — 能写出能跑的代码，解决基本问题</li>
+<li markdown>**会想** — 理解底层原理，能自主分析问题、设计方案</li>
+<li markdown>**会教** — 能把自己懂的东西，用别人能理解的方式讲清楚</li>
 </ol>
 
-我的目标是培养学生在**第 2 层**站稳脚跟，同时用自己的**设计能力**让抽象概念可视化，降低理解门槛。
+我的目标是培养学生站稳**第二层**，同时用自己的设计能力让抽象概念可视化，降低理解门槛。
 
 在 AI 时代，编程老师的角色不再是"代码词典"，而是：
 

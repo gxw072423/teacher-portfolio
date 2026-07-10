@@ -1,6 +1,6 @@
 # 🚀 项目作品
 
-每一个项目都代表着我的一步成长。以下是我在学习与实践中完成的代表性作品。
+每一个项目都代表着我的一步成长。
 
 ---
 
@@ -8,9 +8,14 @@
 
 <div class="project-card" markdown>
 
-**角色**：UI/UX 设计师 + 前端开发者
+<div class="project-role">🎯 UI/UX 设计师 + 前端开发者</div>
 
-**技术栈**：<span class="project-tags"><span class="project-tag">Figma</span><span class="project-tag">HTML5</span><span class="project-tag">CSS3</span><span class="project-tag">JavaScript</span></span>
+<div class="project-tags" markdown>
+<span class="project-tag">Figma</span>
+<span class="project-tag">HTML5</span>
+<span class="project-tag">CSS3</span>
+<span class="project-tag">JavaScript</span>
+</div>
 
 ### 📋 项目概述
 
@@ -19,9 +24,9 @@
 ### ✅ 完成了什么
 
 - 🎨 **40+ 页面**高保真 Figma 设计稿
-- 🔍 进行用户调研与竞品分析，产出用户画像
+- 🔍 用户调研与竞品分析，产出用户画像
 - 📐 搭建组件库和设计规范（Design System）
-- 💻 使用 HTML/CSS/JS 实现核心页面（商品列表、详情、发布、聊天）
+- 💻 HTML/CSS/JS 实现核心页面（商品列表、详情、发布、聊天）
 - 📱 完整的响应式适配（手机端 + 桌面端）
 
 ### 💡 教学视角
@@ -36,22 +41,27 @@
 
 <div class="project-card" markdown>
 
-**角色**：全栈开发者
+<div class="project-role">⚡ 全栈开发者</div>
 
-**技术栈**：<span class="project-tags"><span class="project-tag">Python</span><span class="project-tag">MkDocs</span><span class="project-tag">Material Design</span><span class="project-tag">GitHub Pages</span></span>
+<div class="project-tags" markdown>
+<span class="project-tag">Python</span>
+<span class="project-tag">MkDocs</span>
+<span class="project-tag">Material Design</span>
+<span class="project-tag">GitHub Pages</span>
+</div>
 
 ### 📋 项目概述
 
-你现在正在看的这个网站！使用 Python 生态的 MkDocs 搭建，Material Design 风格，部署在 GitHub Pages 上。
+你现在正在看的这个网站！使用 Python 生态的 MkDocs 搭建，Material Design 风格，部署在 GitHub Pages 上。从设计到部署全流程独立完成。
 
 ### ✅ 技术亮点
 
 - 🐍 **Python 工具链**：MkDocs + Material for MkDocs
-- 📝 **Markdown 驱动**：所有内容使用 Markdown 编写，简洁高效
-- 🎨 **蓝色主题**：统一的 Material Design 蓝色调
-- 🌗 **暗色模式**：支持亮色/暗色一键切换
-- 🚀 **GitHub Pages 部署**：一条命令自动部署
-- 🔍 **全文搜索**：内置搜索功能
+- 🎨 **自定义 CSS**：300+ 行手写样式，暗色模式适配
+- 📝 **Markdown 驱动**：全部内容用 Markdown 编写，简洁高效
+- 🌗 **暗色模式**：亮色/暗色一键切换，无缝体验
+- 🚀 **一行部署**：`mkdocs gh-deploy` 自动部署到 GitHub Pages
+- 🔍 **全文搜索**：内置搜索，支持中文
 
 </div>
 
@@ -63,43 +73,37 @@
 
 <div class="practice-card" markdown>
 
-### 🗄️ 学生管理系统（Java）
+<span class="card-icon">🗄️</span>
 
-**技术栈**：Spring Boot + MyBatis + MySQL
+### 学生管理系统
 
-基础的 CRUD 管理系统，包含学生信息管理、课程管理、成绩录入与查询功能。
+<p class="practice-tech">Spring Boot + MyBatis + MySQL</p>
 
-- RESTful API 设计
-- MyBatis 数据库映射
-- 前后端分离架构
+基础的 CRUD 管理系统，包含学生信息管理、课程管理、成绩录入与查询功能。实践了 RESTful API 设计、MyBatis 数据库映射与前后端分离架构。
 
 </div>
 
 <div class="practice-card" markdown>
 
-### ☀️ 天气预报应用（Vue）
+<span class="card-icon">☀️</span>
 
-**技术栈**：Vue 3 + Vite + API 调用
+### 天气预报应用
 
-调用第三方天气 API，展示实时天气、未来 7 天预报、城市搜索等功能。
+<p class="practice-tech">Vue 3 + Vite + API 调用</p>
 
-- Vue 3 Composition API
-- Axios 异步请求
-- 响应式布局适配
+调用第三方天气 API，展示实时天气、未来 7 天预报、城市搜索等功能。实践了 Vue 3 Composition API、Axios 异步请求与响应式布局。
 
 </div>
 
 <div class="practice-card" markdown>
 
-### 🎮 Unity 3D 小球闯关
+<span class="card-icon">🎮</span>
 
-**技术栈**：Unity + C#
+### Unity 3D 小球闯关
 
-一个简单的 3D 平台跳跃游戏，玩家控制小球通过障碍到达终点。
+<p class="practice-tech">Unity + C#</p>
 
-- 物理引擎应用
-- C# 脚本编写
-- UI 界面设计
+一个 3D 平台跳跃游戏，玩家控制小球通过障碍到达终点。实践了物理引擎应用、C# 脚本编写与游戏 UI 设计。
 
 </div>
 
@@ -111,12 +115,12 @@
 
 - 📖 开发一个**在线编程练习平台**（交互式代码编辑器 + 自动评测）
 - 📹 制作**编程教学视频系列**（从零到一学 Web 开发）
-- 🛠️ 构建一个轻量级 **Vue UI 组件库**（从设计到代码的全流程）
+- 🛠️ 构建一个轻量级 **Vue UI 组件库**（从 Figma 设计到代码实现）
 
 ---
 
 <div class="center-cta" markdown>
 
-[🐙 查看更多代码 → GitHub](https://github.com/gxw072423){ .md-button .md-button--primary }
+[🐙 查看 GitHub 仓库](https://github.com/gxw072423){ .md-button .md-button--primary }
 
 </div>

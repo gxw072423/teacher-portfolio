@@ -1,13 +1,17 @@
 site_name: 郭笑玮 — 编程教师
-site_description: 郭笑玮的个人作品集与编程教学站点
+site_description: 郭笑玮的个人作品集与编程教学站点 — 计算机科学 · UI设计 · 全栈开发
 site_author: 郭笑玮
 site_url: https://gxw072423.github.io
 repo_name: gxw072423/teacher-portfolio
 repo_url: https://github.com/gxw072423/teacher-portfolio
+copyright: Copyright &copy; 2025 郭笑玮 — 用心教学，用代码创造价值
+edit_uri: ""
 
 theme:
   name: material
   language: zh
+  logo: ""
+  favicon: ""
   palette:
     - scheme: default
       primary: blue
@@ -23,13 +27,21 @@ theme:
         name: 切换亮色模式
   features:
     - navigation.instant
+    - navigation.instant.progress
     - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.top
+    - navigation.path
+    - navigation.indexes
     - search.suggest
     - search.highlight
+    - search.share
     - content.code.copy
     - content.code.annotate
+    - content.action.edit
+    - toc.follow
+    - header.autohide
   icon:
     repo: fontawesome/brands/github
 
@@ -37,6 +49,7 @@ extra_css:
   - stylesheets/extra.css
 
 extra:
+  generator: false
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/gxw072423
@@ -60,6 +73,8 @@ markdown_extensions:
   - md_in_html
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
