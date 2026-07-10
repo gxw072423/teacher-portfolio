@@ -50,7 +50,7 @@
 
 支持随机抽题、按分类和难度筛选、批量生成、导出 Markdown 文件。
 
-[:octicons-mark-github-16: 源码](https://github.com/gxw072423/code-exercise-gen){ .md-button }
+[:octicons-link-external-16: 在线体验](https://gxw072423.github.io/code-exercise-web/){ .md-button } [:octicons-mark-github-16: CLI 源码](https://github.com/gxw072423/code-exercise-gen){ .md-button }
 
 </div>
 
