@@ -40,6 +40,20 @@
 
 </div>
 
+## 🐍 Python 编程练习题生成器
+
+<div class="proj" markdown>
+
+<div class="stack">Python 3.12 · 零外部依赖 · 纯标准库</div>
+
+一个命令行工具，一行命令自动生成编程练习题。覆盖变量运算、条件判断、循环、函数、列表与字符串 5 大分类，每道题都附带参考答案和测试用例——拿来就能用。
+
+支持随机抽题、按分类和难度筛选、批量生成、导出 Markdown 文件。
+
+[:octicons-mark-github-16: 源码](https://github.com/gxw072423/code-exercise-gen){ .md-button }
+
+</div>
+
 ## 其他实践
 
 <div class="proj" markdown>
