@@ -1,0 +1,76 @@
+site_name: 郭笑玮 — 编程教师
+site_description: 郭笑玮的个人作品集与编程教学站点
+site_author: 郭笑玮
+site_url: https://gxw072423.github.io
+repo_name: gxw072423/teacher-portfolio
+repo_url: https://github.com/gxw072423/teacher-portfolio
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: 切换暗色模式
+    - scheme: slate
+      primary: blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: 切换亮色模式
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    repo: fontawesome/brands/github
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/gxw072423
+      name: GitHub
+  analytics:
+    feedback:
+      title: 觉得有帮助吗？
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: 有帮助
+          data: good
+          note: 谢谢你的反馈！
+        - icon: material/emoticon-sad-outline
+          name: 可以改进
+          data: bad
+          note: 我会继续改进的！
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - 🏠 首页: index.md
+  - 👤 关于我: about.md
+  - 🚀 项目作品: projects.md
+  - 📝 技术文章: blog.md
