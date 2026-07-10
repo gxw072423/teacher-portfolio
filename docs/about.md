@@ -43,48 +43,40 @@
 
 ### 设计工具
 
-<div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0;">
-
-<span style="background: #1565C0; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">⭐ Figma — 最熟练</span>
-<span style="background: #1976D2; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">Adobe Photoshop</span>
-<span style="background: #1E88E5; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">Adobe Illustrator</span>
-<span style="background: #42A5F5; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">Adobe XD</span>
-<span style="background: #64B5F6; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">Sketch</span>
-
+<div class="tag-list" markdown>
+<span class="tag tag-star">⭐ Figma — 最熟练</span>
+<span class="tag">Adobe Photoshop</span>
+<span class="tag">Adobe Illustrator</span>
+<span class="tag">Adobe XD</span>
+<span class="tag">Sketch</span>
 </div>
 
 ### 前端技术
 
-<div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0;">
-
-<span style="background: #1565C0; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">HTML5</span>
-<span style="background: #1976D2; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">CSS3</span>
-<span style="background: #1E88E5; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">JavaScript ES6+</span>
-<span style="background: #42A5F5; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">⭐ Vue.js</span>
-<span style="background: #64B5F6; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">响应式布局</span>
-
+<div class="tag-list" markdown>
+<span class="tag tag-star">HTML5</span>
+<span class="tag">CSS3</span>
+<span class="tag">JavaScript ES6+</span>
+<span class="tag">⭐ Vue.js</span>
+<span class="tag">响应式布局</span>
 </div>
 
 ### 后端 & 数据库
 
-<div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0;">
-
-<span style="background: #1565C0; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">Java</span>
-<span style="background: #1976D2; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">Spring Boot</span>
-<span style="background: #1E88E5; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">MyBatis</span>
-<span style="background: #42A5F5; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">MySQL</span>
-<span style="background: #64B5F6; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">Linux</span>
-
+<div class="tag-list" markdown>
+<span class="tag tag-star">Java</span>
+<span class="tag">Spring Boot</span>
+<span class="tag">MyBatis</span>
+<span class="tag">MySQL</span>
+<span class="tag">Linux</span>
 </div>
 
 ### AI 工具链
 
-<div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0;">
-
-<span style="background: #1565C0; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">Claude / Claude Code</span>
-<span style="background: #1976D2; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">AI 设计工具</span>
-<span style="background: #1E88E5; color: white; padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem;">Python</span>
-
+<div class="tag-list" markdown>
+<span class="tag tag-star">Claude / Claude Code</span>
+<span class="tag">AI 设计工具</span>
+<span class="tag">Python</span>
 </div>
 
 ---
@@ -95,9 +87,11 @@
 
 我理解的编程教学分为三个层次：
 
-1. **会用** — 能写出能跑的代码
-2. **会想** — 理解背后的原理，能自主解决问题
-3. **会教** — 能把自己懂的东西，用别人能理解的方式讲出来
+<ol class="teaching-levels" markdown>
+<li markdown>**会用** — 能写出能跑的代码</li>
+<li markdown>**会想** — 理解背后的原理，能自主解决问题</li>
+<li markdown>**会教** — 能把自己懂的东西，用别人能理解的方式讲出来</li>
+</ol>
 
 我的目标是培养学生在**第 2 层**站稳脚跟，同时用自己的**设计能力**让抽象概念可视化，降低理解门槛。
 

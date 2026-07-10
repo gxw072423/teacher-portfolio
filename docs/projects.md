@@ -6,15 +6,11 @@
 
 ## 🎓 毕业设计：校园二手交易平台
 
-<div style="background: linear-gradient(135deg, #E3F2FD, white); border-radius: 12px; padding: 1.5rem; margin: 1rem 0; border-left: 4px solid #1565C0;">
+<div class="project-card" markdown>
 
 **角色**：UI/UX 设计师 + 前端开发者
 
-**技术栈**：
-<span style="background: #1565C0; color: white; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.8rem;">Figma</span>
-<span style="background: #1976D2; color: white; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.8rem;">HTML5</span>
-<span style="background: #1E88E5; color: white; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.8rem;">CSS3</span>
-<span style="background: #42A5F5; color: white; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.8rem;">JavaScript</span>
+**技术栈**：<span class="project-tags"><span class="project-tag">Figma</span><span class="project-tag">HTML5</span><span class="project-tag">CSS3</span><span class="project-tag">JavaScript</span></span>
 
 ### 📋 项目概述
 
@@ -38,15 +34,11 @@
 
 ## 💼 个人作品集网站
 
-<div style="background: linear-gradient(135deg, #E3F2FD, white); border-radius: 12px; padding: 1.5rem; margin: 1rem 0; border-left: 4px solid #1976D2;">
+<div class="project-card" markdown>
 
 **角色**：全栈开发者
 
-**技术栈**：
-<span style="background: #1565C0; color: white; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.8rem;">Python</span>
-<span style="background: #1976D2; color: white; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.8rem;">MkDocs</span>
-<span style="background: #1E88E5; color: white; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.8rem;">Material Design</span>
-<span style="background: #42A5F5; color: white; padding: 0.2rem 0.6rem; border-radius: 12px; font-size: 0.8rem;">GitHub Pages</span>
+**技术栈**：<span class="project-tags"><span class="project-tag">Python</span><span class="project-tag">MkDocs</span><span class="project-tag">Material Design</span><span class="project-tag">GitHub Pages</span></span>
 
 ### 📋 项目概述
 
@@ -67,9 +59,9 @@
 
 ## 📚 其他技术实践
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem; margin: 1.5rem 0;">
+<div class="practice-cards" markdown>
 
-<div style="border: 1px solid #BBDEFB; border-radius: 12px; padding: 1.2rem;">
+<div class="practice-card" markdown>
 
 ### 🗄️ 学生管理系统（Java）
 
@@ -83,7 +75,7 @@
 
 </div>
 
-<div style="border: 1px solid #BBDEFB; border-radius: 12px; padding: 1.2rem;">
+<div class="practice-card" markdown>
 
 ### ☀️ 天气预报应用（Vue）
 
@@ -97,7 +89,7 @@
 
 </div>
 
-<div style="border: 1px solid #BBDEFB; border-radius: 12px; padding: 1.2rem;">
+<div class="practice-card" markdown>
 
 ### 🎮 Unity 3D 小球闯关
 
@@ -123,7 +115,7 @@
 
 ---
 
-<div style="text-align: center; margin: 2rem 0;">
+<div class="center-cta" markdown>
 
 [🐙 查看更多代码 → GitHub](https://github.com/gxw072423){ .md-button .md-button--primary }
 
